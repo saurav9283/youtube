@@ -21,9 +21,9 @@ const ChannelDetail = () => {
     );
   }, [id]);
   return (
-    <Box minHeight="95vh">
+    <Box>
       <Box>
-        <div style={{ background: "#efefef", zIndex: 10, height: "150px" }} />
+        <div  />
         <ChannelCard channelDetail={channelDetail} marginTop="-135px" />
       </Box>
       <Box display="flex" p="2">
